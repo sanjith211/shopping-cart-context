@@ -1,0 +1,37 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    height: 4em;
+    background-color: rgb(0, 98, 255);
+}
+
+.left{
+    padding-left: 3em;
+    font-weight: 800;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.right{
+    padding-right: 5em;
+    
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-count{
+    position: absolute;
+    top: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}

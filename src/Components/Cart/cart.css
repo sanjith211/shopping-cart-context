@@ -1,0 +1,60 @@
+.topic{
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 30px;
+}
+
+.row{
+    width: 10%;
+    font-weight: 500;
+    font-size: large;
+}
+
+.data{
+    margin-top: 30px;
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.container{
+    border-top: 1px solid rgb(195, 195, 195);
+    border-bottom: 1px solid grey;
+}
+
+#row1{
+    width: 10%;
+    /* margin-left: -5px; */
+    padding-left: 10px;
+}
+
+.images{
+    height: 100px;
+    width: 100px;
+    /* margin-right: 10px; */
+}
+
+.totalquantity{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10em;
+}
+
+.totalamount{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10em;
+}
+
+.empty-cart{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 500;
+}
